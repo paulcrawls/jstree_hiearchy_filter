@@ -1,0 +1,35 @@
+
+[
+
+    {
+          "id"     : "1"
+        , "parent" : "#"
+        , "text"   : "Element1 (1)"
+		, "li_attr": { "data-not_clickable": "true" }
+    
+    }
+,
+    {
+          "id"     : "2"
+        , "parent" : "#"
+        , "text"   : "Element2 (2)"
+		, "li_attr": { "data-not_clickable": "true" }
+    
+    }
+,
+    {
+          "id"     : "3"
+        , "parent" : "1"
+        , "text"   : "Sub11 (3)"
+    
+    }
+,
+    {
+          "id"     : "4"
+        , "parent" : "2"
+        , "text"   : "Sub22 (4)"
+    
+    }
+
+
+]

@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Название страницы</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="jstree/themes/default/style.css" />
+
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+		<script type="text/javascript" src="jstree/jstree.js"></script>
+		
+		<script type="text/javascript" src="js/hierarchy_filters.js"></script>
+
+	</head>
+	<body>
+
+<div class="container">
+
+	<div style="margin:10px 0 20px 0; height:25px; border:1px solid #ccc; background:yellow;">Single-choice</div>
+
+	<div style="width:300px; height:150px; float:left; margin:0 120px 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 1:</div>
+		<div>
+			<input type="hidden" value="1" name="filter1" id="filter1">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div style="width:300px; height:150px; float:left; margin:0 0 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 2:</div>
+		<div>
+			<input type="hidden" value="1" name="filter2" id="filter2">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div style="width:300px; height:150px; float:left; margin:0 120px 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 3:</div>
+		<div>
+			<input type="hidden" value="5" name="filter3" id="filter3">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div style="width:300px; height:150px; float:left; margin:0 0 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 4:</div>
+		<div>
+			<input type="hidden" value="3" name="filter4" id="filter4">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div style="width:300px; height:150px; float:left; margin:0 120px 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 5:</div>
+		<div>
+			<input type="hidden" value="2" name="filter5" id="filter5">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div style="margin:50px 0 20px 0; height:25px; border:1px solid #ccc; background:yellow;">Multi-choice</div>
+	
+	<div style="width:300px; height:150px; float:left; margin:0 120px 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 1:</div>
+		<div>
+			<input type="hidden" value="1" name="filter11" id="filter11">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div style="width:300px; height:150px; float:left; margin:0 0 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 2:</div>
+		<div>
+			<input type="hidden" value="1" name="filter12" id="filter12">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div style="width:300px; height:150px; float:left; margin:0 120px 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 3:</div>
+		<div>
+			<input type="hidden" value="5" name="filter13" id="filter13">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div style="width:300px; height:150px; float:left; margin:0 0 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 4:</div>
+		<div>
+			<input type="hidden" value="3" name="filter14" id="filter14">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div style="width:300px; height:100px; float:left; margin:0 120px 20px 0;">
+		<div style="margin-bottom: 4px;">
+			Case 5:</div>
+		<div>
+			<input type="hidden" value="2" name="filter15" id="filter15">
+			<p style="margin:10px 0; font-size:11px; color:green;">Selected elements: </p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div class="clear" style="height:350px;"></div>
+	
+</div>
+	
+		
+<script>
+	/*я в транке это уже сделал, а на страницах шаблонов пока не было исправленного верхнего меню*/
+	$(document).ready(function(){
+		
+		$("#filter1").hierarchyFilter({ type: 1, url: 'json/source' });
+		$("#filter2").hierarchyFilter({ type: 1, url: 'json/source2' });
+		$("#filter3").hierarchyFilter({ type: 1, url: 'json/source3' });
+		$("#filter4").hierarchyFilter({ type: 1, url: 'json/source4' });
+		$("#filter5").hierarchyFilter({ type: 1, url: 'json/source5' });
+		
+		$("#filter11").hierarchyFilter({ type: 2, url: 'json/source' });
+		$("#filter12").hierarchyFilter({ type: 2, url: 'json/source2' });
+		$("#filter13").hierarchyFilter({ type: 2, url: 'json/source3' });
+		$("#filter14").hierarchyFilter({ type: 2, url: 'json/source4' });
+		$("#filter15").hierarchyFilter({ type: 2, url: 'json/source5' });
+		
+		$('input[type="hidden"]').each(function() {
+			$(this).parent().parent().find('p').text('Selected elements: ' + $(this).val());
+		});
+
+		$('input[type="hidden"]').change(function() {
+			$(this).parent().parent().find('p').text('Selected elements: ' + $(this).val());
+		});
+	});
+</script>
+
+	</body>
+</html>

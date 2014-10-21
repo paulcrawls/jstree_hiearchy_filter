@@ -1,0 +1,344 @@
+html, body {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    background-color: #EAEAEA;
+    border: 0 solid;
+    height: 100%;
+}
+
+a, a:link, a:visited {
+    color: #00929F;
+    cursor: pointer;
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	min-height:500px; 
+	padding:10px 70px; 
+	background-color: #ffffff; 
+	border-bottom: 1px solid #a6a6a6;
+    border-left: 1px solid #cfcfcf;  
+	border-radius: 4px;   
+	border-right: 1px solid #cfcfcf;
+    margin: 0 2px 6px;
+}
+
+.standard-field {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    cursor: default;
+    display: block;
+    height: 20px;
+    padding: 0 2px 0 4px;
+}
+
+	.standard-field input {
+		border: 0 none !important;
+		color: #222222 !important;
+		font-family: Verdana,Arial,sans-serif !important;
+		font-size: 11px !important;
+		height: 18px !important;
+		margin-top: 1px;
+		padding: 0 !important;
+		width: 94% !important;
+	}
+	
+.bold_text {
+    font-weight: bold !important;
+}
+
+.standard-button {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    height: 20px;
+    line-height: 16px;
+    padding: 0 4px;
+    background: -moz-linear-gradient(center top , #ffffff, #ebebeb) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0 3px;
+}
+
+.standard-button .button-text {
+    margin: 0 20px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.button-text {
+    color: #010101;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    height: 20px;
+    line-height: 19px;
+    padding: 0 5px;
+}
+
+.bs_block {
+    background-color: #ffffff;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+}
+
+/** jstree */
+.jstree_wrapper {
+    width: auto;
+    border: 0;
+    padding: 5px;
+}
+
+.jstree {
+    display: none;
+    position: absolute;
+    background: #fff;
+    padding: 10px 10px 20px 10px;
+    margin: 3px 0 0 0px!important;
+    max-height: 300px;
+    overflow-y: scroll;
+    min-height: 60px;
+    z-index: 9999;
+    min-width: 320px;
+}
+
+.jstree.simplified {
+    display: block;
+    position: static;
+    background: #fff;
+    padding: 5px 0;
+    border: 0;
+    margin: 3px 0 0 0px!important;
+    min-width: 300px;
+    min-height: 240px;
+    height:auto;
+    width:auto;
+    overflow:auto;
+}
+
+.jstree.simplified > .jstree-container-ul {
+    padding-top:0;
+}
+
+.jstree_buttons {
+    background: none repeat scroll 0 0 #FFFFFF;
+    top: 0;
+    height: 23px;
+    left: 0;
+    padding: 4px 10px 2px 10px;
+    position: absolute;
+    width: 300px;
+}
+
+.show_checkbox_hide_deleted .jstree_buttons {
+    height: 38px;
+}
+
+.jstree_buttons > .action_approve > div,
+.jstree_buttons > .action_cancel > div,
+.jstree_buttons > .action_clear > div{
+    height:16px;
+    margin: -2px 10px 0;
+}
+
+.jstree_buttons > .action_toggle_deleted {
+    padding:3px 0 0 23px;
+    width:250px;
+    height:18px;
+    background: url(img/standard-radioCheckbox.png) 3px 1px no-repeat;
+    cursor:pointer;
+}
+
+.jstree_hidden_deleted .jstree_buttons > .action_toggle_deleted {
+    background-position: 3px -19px;
+}
+
+.jstree.jstree_hidden_deleted li[data-deleted="true"] {
+    display:none!important;
+}
+
+.jstree.treetype_1 .jstree-clicked,
+.jstree.treetype_3 .jstree-clicked {
+    font-weight:bold;
+}
+
+.jstree.treetype_1 li[data-deleted="true"] .jstree-clicked,
+.jstree.treetype_3 li[data-deleted="true"] .jstree-clicked {
+    font-weight:normal!important;
+}
+
+.jstree_buttons > .action_clear {
+    /*розовая кнопка очистить*/
+    background: #ffe8e8; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffe8e8 0%, #f2c4c4 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe8e8), color-stop(100%,#f2c4c4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffe8e8 0%,#f2c4c4 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffe8e8 0%,#f2c4c4 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffe8e8 0%,#f2c4c4 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffe8e8 0%,#f2c4c4 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe8e8', endColorstr='#f2c4c4',GradientType=0 ); /* IE6-9 */
+}
+
+.jstree_buttons > .action_approve, .action_cancel, .action_clear {
+    float: left;
+    cursor: pointer;
+    height:16px;
+}
+
+.jstree.active {
+    display:block;
+}
+
+.jstree_wrapper .select_list {
+    padding: 0 0 0 4px;
+}
+
+.jstree_helper_clear {
+    margin:5px 0;
+    text-decoration:underline;
+    text-align: center;
+    cursor: pointer;
+    color: #00929F;
+    font-size: 10px;
+}
+
+.jstree > .jstree-container-ul {
+    padding-top:21px;
+}
+
+.jstree.show_checkbox_hide_deleted > .jstree-container-ul {
+    padding-top:34px;
+}
+
+.standard-field.jstree-field.org_filter_checked > input[type="text"] {
+    font-weight: bold;
+    background: url(img/org_filter_checked.png) 100% 0 no-repeat!important;
+    text-overflow: ellipsis;
+    padding-right: 19px!important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.standard-field.jstree-field {
+    background:url(img/org_filter_arrow.png) 100% -1px no-repeat;
+    border-right: 0;
+}
+
+.standard-field.jstree-field.simplified,
+.standard-field.jstree-field.simplified:hover {
+    background:none;
+    border-right:1px solid #ccc;
+}
+
+.standard-field.jstree-field:hover {
+    background:url(img/org_filter_arrow.png) 100% -29px no-repeat;
+}
+
+.standard-field.jstree-field.org_filter_checked {
+    background:none;
+    border-right: 1px solid #ccc;
+}
+
+.standard-field.jstree-field input {
+    width:100%!important;
+    cursor:pointer;
+    background: transparent!important;
+}
+
+/*убираем выделение для непрямого выбора для одиночного типа дерева*/
+.treetype_1 .jstree-checkbox.jstree-undetermined,
+.treetype_3 .jstree-checkbox.jstree-undetermined,
+.treetype_1 .jstree-clicked + .jstree-children .jstree-clicked > .jstree-checkbox,
+.treetype_3 .jstree-clicked + .jstree-children .jstree-clicked > .jstree-checkbox {
+    background-position: -164px -4px!important;
+}
+
+.treetype_1 .jstree-clicked + .jstree-children .jstree-clicked,
+.treetype_3 .jstree-clicked + .jstree-children .jstree-clicked {
+    font-weight:normal;
+}
+
+/* hide all checkboxes */
+.treetype_3 .jstree-checkbox,
+.treetype_4 .jstree-checkbox,
+li[data-not_clickable="true"] .jstree-checkbox,
+li[data-deleted="true"] .jstree-checkbox,
+.jstree-disabled .jstree-checkbox {
+    display:none!important;
+}
+
+/* Then display only checkboxes on leaf nodes */
+.treetype_3 li[class~="jstree-leaf"] > a > .jstree-checkbox,
+.treetype_4 li[class~="jstree-leaf"] > a > .jstree-checkbox,
+li[data-not_clickable="true"] li[class~="jstree-leaf"] > a > .jstree-checkbox {
+    display: inline-block!important;
+}
+
+.jstree-node.none {
+    display:none!important;
+}
+
+li[data-not_clickable="true"] > .jstree-anchor,
+li[data-deleted="true"] > .jstree-anchor,
+.jstree-disabled .jstree-anchor {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0)!important;
+    color: #666666!important;
+}
+
+li[data-deleted="true"] > .jstree-anchor {
+    text-decoration: line-through;
+}
+
+li[data-not_clickable="true"] > .jstree-anchor > .jstree-icon,
+li[data-deleted="true"] > .jstree-anchor > .jstree-icon,
+.jstree-disabled .jstree-anchor > .jstree-icon {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%)!important;
+    filter: url(grayscale.svg); /* Firefox 4+ */
+    filter: gray; /* IE 6-9 */
+    opacity: 0.8!important;
+}
+
+.jstree-disabled .action_approve .button-text,
+.jstree-disabled .action_clear .button-text {
+    color: #aaa;
+}
+
+.jstree-disabled .action_approve, .jstree-disabled .action_clear {
+    box-shadow: 0 0!important;
+}
+
+#editAddDialog .jstree {
+    width: 376px;
+}
+
+/*jstree only child: rare case*/
+
+.jstree.selection_only_child .jstree-last .jstree-clicked > .jstree-checkbox {
+    background-position: -164px -4px;
+}
+
+.jstree.selection_only_child .jstree-last .jstree-clicked {
+    font-weight: normal;
+}
+
+.jstree.selection_only_child .jstree-clicked + .jstree-children .jstree-last .jstree-clicked > .jstree-checkbox {
+    background-position: -228px -4px!important;
+}
+
+.jstree.selection_only_child .jstree-clicked + .jstree-children .jstree-last .jstree-clicked {
+    font-weight: bold;
+}

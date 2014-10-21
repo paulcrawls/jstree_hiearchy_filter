@@ -1,0 +1,1165 @@
+
+[
+
+    {
+          "id"     : "906"
+        , "parent" : "805"
+        , "text"   : "TRA LA LA Сибирь"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "892"
+        , "parent" : "804"
+        , "text"   : "BD_Администрация блока BI"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "849"
+        , "parent" : "806"
+        , "text"   : "BD_Администрация блока CRM"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "815"
+        , "parent" : "809"
+        , "text"   : "BD_Администрация блока EGV"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "814"
+        , "parent" : "807"
+        , "text"   : "BD_Администрация блока ERP"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "865"
+        , "parent" : "803"
+        , "text"   : "BD_Администрация блока INV"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "829"
+        , "parent" : "803"
+        , "text"   : "BD_Element.Троицкий"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "830"
+        , "parent" : "808"
+        , "text"   : "BD_С.Лысак"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "804"
+        , "parent" : "801"
+        , "text"   : "BI"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "862"
+        , "parent" : "804"
+        , "text"   : "BIC Декрет"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "806"
+        , "parent" : "801"
+        , "text"   : "CRM"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "807"
+        , "parent" : "801"
+        , "text"   : "ERP"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "873"
+        , "parent" : "808"
+        , "text"   : "IPC"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "846"
+        , "parent" : "808"
+        , "text"   : "IPC не активн."
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "965"
+        , "parent" : "801"
+        , "text"   : "TEST"
+    
+    }
+,
+    {
+          "id"     : "956"
+        , "parent" : "805"
+        , "text"   : "practice_655"
+    
+    }
+,
+    {
+          "id"     : "955"
+        , "parent" : "805"
+        , "text"   : "practice_655"
+    
+    }
+,
+    {
+          "id"     : "957"
+        , "parent" : "805"
+        , "text"   : "practice_65577"
+    
+    }
+,
+    {
+          "id"     : "890"
+        , "parent" : "808"
+        , "text"   : "Административная дирекция"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "841"
+        , "parent" : "808"
+        , "text"   : "Администрация Elementелгород"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "913"
+        , "parent" : "808"
+        , "text"   : "Администрация Владивосток"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "858"
+        , "parent" : "808"
+        , "text"   : "Администрация Воронеж"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "827"
+        , "parent" : "808"
+        , "text"   : "Администрация Екатеринбург"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "843"
+        , "parent" : "808"
+        , "text"   : "Администрация Иркутск"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "857"
+        , "parent" : "808"
+        , "text"   : "Администрация Otherазахстан"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "898"
+        , "parent" : "808"
+        , "text"   : "Администрация Otherраснодар"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "861"
+        , "parent" : "808"
+        , "text"   : "Администрация Otherрасноярск"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "842"
+        , "parent" : "808"
+        , "text"   : "Администрация Otherурск"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "925"
+        , "parent" : "808"
+        , "text"   : "Администрация Нижний-Новгород"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "916"
+        , "parent" : "808"
+        , "text"   : "Администрация Новокузнецк"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "891"
+        , "parent" : "808"
+        , "text"   : "Администрация Новосибирск"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "878"
+        , "parent" : "808"
+        , "text"   : "Администрация Одесса"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "812"
+        , "parent" : "808"
+        , "text"   : "Администрация Subермь"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "912"
+        , "parent" : "808"
+        , "text"   : "Администрация Санкт-Subетербург"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "860"
+        , "parent" : "808"
+        , "text"   : "Администрация Тверь"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "897"
+        , "parent" : "808"
+        , "text"   : "Администрация Украина"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "879"
+        , "parent" : "808"
+        , "text"   : "Администрация Ярославль"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "869"
+        , "parent" : "804"
+        , "text"   : "Администрация блока BI"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "870"
+        , "parent" : "806"
+        , "text"   : "Администрация блока CRM"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "852"
+        , "parent" : "809"
+        , "text"   : "Администрация блока EGV"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "825"
+        , "parent" : "807"
+        , "text"   : "Администрация блока ERP"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "839"
+        , "parent" : "803"
+        , "text"   : "Администрация блока INV"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "880"
+        , "parent" : "808"
+        , "text"   : "Аппарат Elementэкофиса"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "808"
+        , "parent" : "801"
+        , "text"   : "Elementэкофис (INT)"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "805"
+        , "parent" : "801"
+        , "text"   : "Вне блока"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "866"
+        , "parent" : "802"
+        , "text"   : "Внутренние проекты Административной дирекции"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "847"
+        , "parent" : "802"
+        , "text"   : "Внутренние проекты Аппарата Elementэкофиса"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "882"
+        , "parent" : "802"
+        , "text"   : "Внутренние проекты Дирекции по безопасности"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "864"
+        , "parent" : "802"
+        , "text"   : "Внутренние проекты Дирекции по информационным технологиям"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "901"
+        , "parent" : "802"
+        , "text"   : "Внутренние проекты Дирекции по маркетингу"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "883"
+        , "parent" : "802"
+        , "text"   : "Внутренние проекты Дирекции по управлению персоналом"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "831"
+        , "parent" : "802"
+        , "text"   : "Внутренние проекты Финансово-юридической дирекции"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "802"
+        , "parent" : "801"
+        , "text"   : "Внутренние проекты компании"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "902"
+        , "parent" : "802"
+        , "text"   : "Внутренние проекты по бизнес-архитектуре"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "845"
+        , "parent" : "805"
+        , "text"   : "ДРElementГС"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "895"
+        , "parent" : "805"
+        , "text"   : "ДРElementГС"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "840"
+        , "parent" : "808"
+        , "text"   : "Директор"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "893"
+        , "parent" : "808"
+        , "text"   : "Дирекция бизнес-архитектуры"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "816"
+        , "parent" : "805"
+        , "text"   : "Дирекция блоков"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "872"
+        , "parent" : "808"
+        , "text"   : "Дирекция по безопасности"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "907"
+        , "parent" : "808"
+        , "text"   : "Дирекция по информационным технологиям"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "885"
+        , "parent" : "808"
+        , "text"   : "Дирекция по маркетингу"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "924"
+        , "parent" : "808"
+        , "text"   : "Дирекция по управлению персоналом"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "889"
+        , "parent" : "808"
+        , "text"   : "Дирекция продаж"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "832"
+        , "parent" : "808"
+        , "text"   : "Дирекция сопровождения бизнеса в госсекторе"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "803"
+        , "parent" : "801"
+        , "text"   : "Инновационные решения BSS/GSS"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "909"
+        , "parent" : "808"
+        , "text"   : "Общие"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "810"
+        , "parent" : "808"
+        , "text"   : "Офис Elementелгород"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "914"
+        , "parent" : "808"
+        , "text"   : "Офис Владивосток"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "874"
+        , "parent" : "808"
+        , "text"   : "Офис Воронеж"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "859"
+        , "parent" : "808"
+        , "text"   : "Офис Екатеринбург"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "863"
+        , "parent" : "808"
+        , "text"   : "Офис Иркутск"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "875"
+        , "parent" : "808"
+        , "text"   : "Офис Otherазахстан"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "826"
+        , "parent" : "808"
+        , "text"   : "Офис Otherраснодар"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "915"
+        , "parent" : "808"
+        , "text"   : "Офис Otherрасноярск"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "877"
+        , "parent" : "808"
+        , "text"   : "Офис Otherурск"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "896"
+        , "parent" : "808"
+        , "text"   : "Офис Москва"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "856"
+        , "parent" : "808"
+        , "text"   : "Офис Нижний - Новгород"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "828"
+        , "parent" : "808"
+        , "text"   : "Офис Новокузнецк"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "876"
+        , "parent" : "808"
+        , "text"   : "Офис Новосибирск"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "811"
+        , "parent" : "808"
+        , "text"   : "Офис Одесса"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "844"
+        , "parent" : "808"
+        , "text"   : "Офис Subермь"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "926"
+        , "parent" : "808"
+        , "text"   : "Офис Санкт-Subетербург"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "910"
+        , "parent" : "808"
+        , "text"   : "Офис Узбекистан"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "911"
+        , "parent" : "808"
+        , "text"   : "Офис Украина"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "899"
+        , "parent" : "808"
+        , "text"   : "Офис Ярославль"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "917"
+        , "parent" : "809"
+        , "text"   : "Subрактика &#034;АТ Сервис&#034;"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "848"
+        , "parent" : "807"
+        , "text"   : "Subрактика 1С"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "886"
+        , "parent" : "806"
+        , "text"   : "Subрактика BSS"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "836"
+        , "parent" : "807"
+        , "text"   : "Subрактика CPM"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "920"
+        , "parent" : "804"
+        , "text"   : "Subрактика Campaign Management"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "881"
+        , "parent" : "806"
+        , "text"   : "Subрактика ECM"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "918"
+        , "parent" : "807"
+        , "text"   : "Subрактика ERP SAP"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "835"
+        , "parent" : "807"
+        , "text"   : "Subрактика ERP Аутсорсинг"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "823"
+        , "parent" : "807"
+        , "text"   : "Subрактика ERP Нижний Новгород"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "905"
+        , "parent" : "807"
+        , "text"   : "Subрактика HR"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "854"
+        , "parent" : "807"
+        , "text"   : "Subрактика OSS"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "838"
+        , "parent" : "805"
+        , "text"   : "Subрактика SAP"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "851"
+        , "parent" : "806"
+        , "text"   : "Subрактика Siebel"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "813"
+        , "parent" : "805"
+        , "text"   : "Subрактика Temporal"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "908"
+        , "parent" : "805"
+        , "text"   : "Subрактика Elementизнес Otherонсалтинг"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "868"
+        , "parent" : "809"
+        , "text"   : "Subрактика Облачные решения"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "904"
+        , "parent" : "809"
+        , "text"   : "Subрактика Сервис"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "867"
+        , "parent" : "804"
+        , "text"   : "Subрактика Специальные решения"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "923"
+        , "parent" : "803"
+        , "text"   : "Subрактика аутсорсинга"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "921"
+        , "parent" : "809"
+        , "text"   : "Subрактика базовых тиражируемых решений (ElementТР)"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "850"
+        , "parent" : "805"
+        , "text"   : "Subрактика бизнес-архитектуры"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "833"
+        , "parent" : "809"
+        , "text"   : "Subрактика медицинских проектов"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "887"
+        , "parent" : "803"
+        , "text"   : "Subрактика портальных и WEB технологий"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "853"
+        , "parent" : "803"
+        , "text"   : "Subрактика прикладных систем поддержки для государства"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "817"
+        , "parent" : "809"
+        , "text"   : "Subрактика региональных проектов"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "818"
+        , "parent" : "809"
+        , "text"   : "Subрактика типовых прикладных ИС"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "819"
+        , "parent" : "809"
+        , "text"   : "Subрактика федеральных программ"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "903"
+        , "parent" : "804"
+        , "text"   : "Subрактика целевого маркетинга и лояльности"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "900"
+        , "parent" : "808"
+        , "text"   : "Subрактиканты"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "884"
+        , "parent" : "802"
+        , "text"   : "Сопровождение и развитие финансовых систем"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "919"
+        , "parent" : "803"
+        , "text"   : "Филиал в Otherазахстане"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "871"
+        , "parent" : "808"
+        , "text"   : "Финансово-юридическая дирекция"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "855"
+        , "parent" : "804"
+        , "text"   : "ЦOther BI"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "837"
+        , "parent" : "804"
+        , "text"   : "ЦOther DWH Альфа-Elementанк"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "888"
+        , "parent" : "804"
+        , "text"   : "ЦOther DWH ВOther Россия"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "821"
+        , "parent" : "804"
+        , "text"   : "ЦOther DWH ВOther СНГ и Межнар"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "894"
+        , "parent" : "804"
+        , "text"   : "ЦOther DWH ВТElement"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "822"
+        , "parent" : "804"
+        , "text"   : "ЦOther DWH РТOther"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "834"
+        , "parent" : "807"
+        , "text"   : "ЦOther ERP Вымпелком"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "820"
+        , "parent" : "807"
+        , "text"   : "ЦOther ERP Ростелеком"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "824"
+        , "parent" : "807"
+        , "text"   : "ЦOther ERP Яндекс"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+,
+    {
+          "id"     : "922"
+        , "parent" : "804"
+        , "text"   : "ЦOther Сбербанк РФ"
+    
+        , "li_attr": { "rel": "deleted" }
+		, "state": { "selected": "true" }
+    
+    }
+,
+    {
+          "id"     : "801"
+        , "parent" : "#"
+        , "text"   : "ТраЛаЛа Otherонсалтинг"
+    
+    }
+,
+    {
+          "id"     : "809"
+        , "parent" : "801"
+        , "text"   : "Электронное правительство"
+    
+        , "li_attr": { "rel": "deleted" }
+    
+    }
+
+]
