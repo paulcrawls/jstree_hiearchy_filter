@@ -16,9 +16,9 @@ $.widget('custom.hierarchyFilter', {
         disabled: false,
         placeholder: "Select something...",
         label: "Selected elements",
-        /*упрощенное дерево (без кнопок)*/
+        /*simlified == w/o buttons*/
         simplified: false,
-        /*показать/скрыть чекбокс удаленных*/
+        /*show or hide 'deleted' scheckbox*/
         show_checkbox_hide_deleted: false
     },
 
@@ -90,7 +90,7 @@ $.widget('custom.hierarchyFilter', {
 			}
 		}
 
-		/*методы загрузки данных*/
+		/*data loading methods*/
 		self.load_json = function($args) {
 			if ($args && $args.source.length != 0) {
 				$.getJSON($args.source , $args.param,  function(data) {
@@ -180,7 +180,7 @@ $.widget('custom.hierarchyFilter', {
             });
         }
 
-        /**методы взаимодействия с данными*/
+        /** data handling methods */
         self.get_selected = function() {
             var selected = [];
             split_deleted_and_not_clickable(selected);
@@ -275,7 +275,7 @@ $.widget('custom.hierarchyFilter', {
             open_and_scroll_tree();
         };
 
-		/**методы взаимодействия с деревом*/
+		/** tree handling methods */
         self.open_tree = function() {
             if (!self.options.disabled) {
                 if (!self.options.simplified && self.$jstree.css('top') == 'auto') {
@@ -302,11 +302,11 @@ $.widget('custom.hierarchyFilter', {
             if (selectedIdArray.length == 0) return "";
 
             var name = self.$jstree.jstree(true).get_text(self.$jstree.jstree(true).get_node(selectedIdArray[0]));
-            //экранирование
+            //screening
             return $("<div>").html(name).text();
         };
 
-        /**проверки на: лист, корень, узел*/
+        /** check type */
         if (isSingleChoice) {
             self.is_leaf = function() {
                 return self.$jstree.jstree(true).is_leaf(self.options.selected) && self.get_selected().length > 0;
@@ -321,7 +321,7 @@ $.widget('custom.hierarchyFilter', {
             };
         }
 
-        /**МЕТОДЫ ИНИЦИАЛИЗАЦИИ*/
+        /**INIT METHODS*/
         self.init = function(data, $selectedNodeId) {
             self.draw_tree(data, $selectedNodeId);
             self.bind_events();
@@ -337,7 +337,7 @@ $.widget('custom.hierarchyFilter', {
                 self.close_tree();
             }
 
-            /**открываем дерево и проматываем скролл в нем*/
+            /**open the tree and scroll it */
             if (old_result.length == 0) {
                 self.$jstree.jstree("open_node", self.$jstree.find('li.jstree-last').attr('id'));
             } else {
@@ -380,19 +380,19 @@ $.widget('custom.hierarchyFilter', {
                     self.disable();
                 }
 
-                /**находим и дисейблим удаленные*/
+                /**find and disable deleted elements*/
                 var nodes_to_disable = get_deleted_nodes();
                 nodes_to_disable.each(function() {
                     self.$jstree.jstree("disable_node", $(this).attr('id'));
                 });
 
-                /**напрямую выбираем в дереве пришедшие значения*/
+                /**choose loaded nodes*/
                 $($selectedNodeId).each(function(index, id){
                     self.$jstree.jstree(true).select_node(id, true);
                 });
                 old_result = self.get_selected();
 
-                /**если значения есть, записываем их в скрытый инпут*/
+                /**if there ARE nodes, then write them down in hidden input*/
                 if (self.options.selected.length > 0) {
                     self.$jstree_hidden_input.val(self.options.selected);
                 }
@@ -408,9 +408,9 @@ $.widget('custom.hierarchyFilter', {
 		
 		function add_tree_to_container(){
             if (!self.options.simplified) {
-                /**если не упрощенное дерево -- помещаем его перед закрытием body*/
+                /**if not simplified -- set it before body closing */
                 $('body').append(self.$jstree);
-                /**добавляем кнопки, если не упрощенное дерево*/
+                /**add buttons, if not simplified*/
                 self.$buttons.clone().appendTo(self.$jstree);
             } else {
                 self.$jstree_hidden_input.parent().after(self.$jstree);
@@ -430,11 +430,11 @@ $.widget('custom.hierarchyFilter', {
 
             bind_autocomplete_search();
 
-            /*Инициалиализация в зависимости от типа*/
+            /*TYPE-dependant INIT*/
             bind_jstree_events();
 
             set_placeholder();
-            /*Инициалиализация событий закончилась*/
+            /*Events INIT ends*/
         };
 
             function open_tree_on_focus() {
@@ -461,7 +461,7 @@ $.widget('custom.hierarchyFilter', {
 
                 function toggle_disabled_and_deleted_on_node_open() {
                     self.$jstree.on("open_node.jstree", function (e, data) {
-                        /*находим и дисейблим удаленные*/
+                        /*find and disable deleted*/
                         self.$jstree.find('li#' + data.node.id + ' li').each(function() {
                             if (isDeleted($(this))) {
                                 self.$jstree.jstree("disable_node", $(this).attr('id'));
@@ -542,7 +542,7 @@ $.widget('custom.hierarchyFilter', {
                     });
                 }
 
-            /**функции проверки состояния нода*/
+            /**check node state fucntions*/
             function isNotClickable($element) {
                 if ($element.attr('data-not_clickable') == 'true') {
                     return true;
@@ -568,10 +568,10 @@ $.widget('custom.hierarchyFilter', {
             }
 
             function bind_button_events() {
-                //Применить
+                //Accept
                 self.$jstree.on('click', '.action_approve', function(){
                     if (!self.options.disabled) {
-                        /*если фильтр DISABLED, запрещаем Применять и Очищать*/
+                        /*if DISABLED, restrict Accept and Clear*/
 
                         self.close_tree();
 
@@ -585,10 +585,10 @@ $.widget('custom.hierarchyFilter', {
                     }
                 });
 
-                //Очистить
+                //Clear
                 self.$jstree.on('click', '.action_clear', function(){
                     if (!self.options.disabled) {
-                        /*если фильтр DISABLED, запрещаем Применять и Очищать*/
+                        /*if DISABLED, restrict Accept and Clear*/
                         self.close_tree();
                         self.clear();
                         self.$jstree_hidden_input.change();
@@ -597,14 +597,14 @@ $.widget('custom.hierarchyFilter', {
                     }
                 });
 
-                //Скрыть/показать удаленных
+                //SHow/hide deleted elements
                 self.$jstree.on('click', '.action_toggle_deleted', function() {
                     self.$jstree.toggleClass('jstree_hidden_deleted');
                     sessionStorage.setItem(window.location.pathname + '?is_jstree_hidden_deleted',
                         self.$jstree.hasClass('jstree_hidden_deleted'));
                 });
 
-                //Отмена
+                //Cancel
                 self.$jstree.on('click', '.action_cancel', function(){
                     self.close_tree();
                     self.cancel();
@@ -614,10 +614,10 @@ $.widget('custom.hierarchyFilter', {
             function bind_document_events() {
                 $(document).on('click', function(e) {
 
-                    /* если дерево не открыто, то не делаем ничего*/
+                    /* if tree is not open, do nothing*/
                     if (!self.$jstree.hasClass('active')) return;
 
-                    /*кликнули внутри контейнера - ничего не делаем*/
+                    /* click inside the container -- do nothing*/
                     if ($(e.target).is(self.$jstree_input) ||
                         $(e.target).is(self.$jstree_input_wrapper) ||
                         $(e.target).parents('.jstree').length > 0 && $(e.target).parents('.jstree').is(self.$jstree) ||
@@ -630,7 +630,7 @@ $.widget('custom.hierarchyFilter', {
                         return;
                     }
 
-                    /* доп.проверка: вдруг юзер вручную удалил выбор */
+                    /* what if user manually cleared the selection? */
                     set_placeholder();
 
                     /*if clicked somewhere else*/
@@ -658,7 +658,7 @@ $.widget('custom.hierarchyFilter', {
                 });
             }
 
-		/*запуск и инициализация*/
+		/*START and INIT*/
 		if (self.options.url.length > 0) {
             self.load_json({ source: self.options.url, selected: self.options.selected});
         } else if (self.options.data.length > 0) {
